@@ -1,0 +1,5 @@
+# EXP-001 uses only the Python 3 standard library for mock mode.
+# Live mode talks to OpenAI / Anthropic / xAI via urllib — no extra packages required.
+# Optional: pin nothing. If you prefer the official SDKs later:
+# openai>=1.40.0
+# anthropic>=0.34.0
